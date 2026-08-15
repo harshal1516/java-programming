@@ -1,0 +1,19 @@
+{
+  "Main Method": {
+    "prefix": "main",
+    "body": [
+      "public static void main(String[] args) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Public Static Void Main"
+  },
+  "Print Line": {
+    "prefix": "sysout",
+    "body": [
+      "System.out.println($1);"
+    ],
+    "description": "System.out.println"
+  }
+}
+	
