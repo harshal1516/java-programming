@@ -8,4 +8,4 @@ public class WhileLoop{
     }
     System.out.println("Sum of numbers: " + sum);
     }}
-     
+       
