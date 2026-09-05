@@ -27,5 +27,7 @@ public class Calculator2 {
   break;
   default: System.out.println("Wrong operator choosen");
         }
+
+        sc.close();
     }
 }

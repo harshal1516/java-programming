@@ -1,35 +1,23 @@
 public class hollowrec {
-    public static void hollowrec(int totRows,int totCols)
-        {
-            for(int i=1 ; i<=totRows;i++){
-                for (int j=1; j<=totCols; j++){
-                    if (i ==1 || i==totRows || j==1 || j == totCols){
-                          System.out.print("*");
-                    }else{
-                        System.out.print(" ");
-                    }
 
+    public static void printHollowRec(int totRows, int totCols) {
+
+        for (int i = 1; i <= totRows; i++) {
+
+            for (int j = 1; j <= totCols; j++) {
+
+                if (i == 1 || i == totRows || j == 1 || j == totCols) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
                 }
-
-                System.out.println( );
-
             }
+
+            System.out.println();
         }
-    
-    public static void main(String args  []) {
-        hollowrec(4, 5);
-        
+    }
+
+    public static void main(String[] args) {
+        printHollowRec(4, 5);
     }
 }
-
-
-    public static void inrhp()  {
-        //outer
-        for (int i =1;i<=n;i++){
-            
-        }
-    }
-    public static void main(String[] args) {
-        
-    }
-
