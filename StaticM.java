@@ -1,7 +1,7 @@
 class Mobile{
     String brand;//instance variable
     int price;
-   static  String name; //common for all the objectss and should be called with the same class name
+   static  String name; //common for all the objectss and should be called with the same class name //static variable
 
    public void show()
 {
@@ -19,10 +19,10 @@ public static void show1(Mobile obj){
 
 public class StaticM {
     public static void main(String[] args) {
-         Mobile obj1 = new Mobile();
-        obj1.brand = "Samsung";
-        obj1.price= 2000;
-        Mobile.name = "Galaxy";
+         Mobile obj1 = new Mobile();//creating object of class Mobile
+        obj1.brand = "Samsung";//instance variable
+        obj1.price= 2000;//instance variable
+        Mobile.name = "Galaxy";//static variable
 
         Mobile obj2 = new Mobile();        
         obj2.brand = "Apple";
