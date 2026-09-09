@@ -19,7 +19,7 @@ public class StaticV {
         obj1.price= 2000;
         Mobile.name = "Galaxy";
 
-        Mobile obj2 = new Mobile();
+        Mobile obj2 = new Mobile();        
         obj2.brand = "Apple";
         obj2.price = 3000;
         Mobile.name = "iPhone";
